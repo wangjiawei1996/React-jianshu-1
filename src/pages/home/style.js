@@ -202,7 +202,8 @@ export const WriterWrapper = styled.div`
 `;
 
 export const Writers = styled.ul`
-  margin: 10px 0 0 0;
+  padding-left: 0;
+  margin-top: 10px;
 `;
 
 export const WriterItem = styled.li`
@@ -235,7 +236,7 @@ export const WriterItem = styled.li`
         color: #333;
         padding: 10px 0;
       }
-      p {
+      .title {
         font-size: 12px;
         color: #969696;
         line-height: 1;
@@ -243,7 +244,7 @@ export const WriterItem = styled.li`
     }
     &.follow {
       position: absolute;
-      top: 10px;
+      top: 5px;
       right: 0px;
       z-index: 100;
       color: #42c02e;
